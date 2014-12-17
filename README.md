@@ -20,7 +20,7 @@ client.delwild('pattern:*', function(error, numberDeletedKeys) {
 ## Why should I use it? 
 * This method call is atomic and executed by Redis via LUA script. 
 * Foreach loops should be faster in Redis LUA than in Node.
-* Simple source (check its just 35 lines)
+* Simple source (check its just 29 lines)
 * Works great for small datasets, will spare much time in writing array handling code
 
 ## Why shouldn't?

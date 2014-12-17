@@ -1,10 +1,14 @@
 {
   "name": "redis-delete-wildcard",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Addon to node_redis for atomic deletes using wildcards in keys",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/galanonym/redis-delete-wildcard"
   },
   "keywords": [
     "redis",

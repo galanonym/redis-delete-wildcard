@@ -20,13 +20,6 @@ module.exports = function(redisInstance) {
                     return;
                 }
 
-                //when nothing is deleted responce is undefined
-                //we want to give us 0
-                if (typeof responce === 'undefined') {
-                    callback(null, 0);
-                    return;
-                }
-
                 //success
                 callback(null, responce);
             }
