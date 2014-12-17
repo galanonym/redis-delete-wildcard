@@ -1,6 +1,6 @@
 {
   "name": "redis-delete-wildcard",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Addon to node_redis for atomic deletes using wildcards in keys",
   "main": "index.js",
   "scripts": {

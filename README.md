@@ -9,7 +9,7 @@ Install the module with: `npm install redis-delete-wildcard`
 ````js
 // Create a redis client
 var redis = require('redis');
-var redisDeleteWildcard = require('redis-delete-wildcard')(redis); //pass in redis so prototype can be extended
+require('redis-delete-wildcard')(redis); //pass in redis so prototype can be extended
 var client = redis.createClient();
 
 // Usage
