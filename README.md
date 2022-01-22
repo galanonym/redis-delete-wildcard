@@ -1,3 +1,5 @@
+# DEPRECATED: This package is no longer maintained 
+
 # redis-delete-wildcard
 
 Delete a set of keys from a pattern with wildcard. Operation is done through a lua script, and therefore atomic. It extends standard [node_redis][] library with a new method `delwild`.
